@@ -1,0 +1,10 @@
+
+:root{color-scheme:dark;--bg:#060c1b;--panel:#111f37;--sky:#23d9ef;--txt:#eaf7ff;--muted:#a9bfd2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:radial-gradient(ellipse at 70% -20%,#0d3b5c 0,transparent 44%),var(--bg);color:var(--txt);line-height:1.9}
+header,main,footer{max-width:1110px;margin:auto;padding:26px 20px}header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #22405a}
+a{color:inherit}header a{text-decoration:none;font-weight:700}.logo{display:flex;align-items:center;gap:12px}.logo img{width:55px;height:55px;object-fit:contain;border-radius:15px}.accent{color:var(--sky)}
+.hero{display:grid;grid-template-columns:1.5fr .7fr;align-items:center;gap:38px;padding:65px 0}.hero h1{font-size:clamp(34px,5vw,67px);line-height:1.3;margin:0 0 18px}.hero p{font-size:17px;color:var(--muted)}.hero img{width:100%;max-width:280px;filter:drop-shadow(0 0 50px #00bbf344)}
+.cta{background:linear-gradient(95deg,#0de0e7,#2d99fe);border-radius:13px;padding:14px 25px;display:inline-block;color:#031324;text-decoration:none;font-weight:800;margin-top:14px}.tag{display:inline-block;padding:4px 12px;border:1px solid #31526c;border-radius:40px;color:#88dbed;font-size:12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{display:block;background:#12213a;border:1px solid #24435b;border-radius:20px;padding:23px;text-decoration:none;min-height:166px}.card:hover{border-color:#21d1e6;transform:translateY(-2px)}.card h3{margin:4px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}
+.article{max-width:800px}.article h1{font-size:clamp(28px,4vw,47px);line-height:1.5}.article h2{color:#77d8ec;margin-top:35px}.article p{color:#bfd2e0}footer{color:#829bae;font-size:12px;margin-top:70px;border-top:1px solid #1c344d}
+@media(max-width:700px){.hero{grid-template-columns:1fr;text-align:center;padding:30px 0}.hero img{max-width:175px}.cards{grid-template-columns:1fr}header{padding:16px}header .small{display:none}}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sabrianooo-cmyk.github.io/gannology-site/sitemap.xml
